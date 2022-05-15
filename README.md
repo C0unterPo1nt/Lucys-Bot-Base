@@ -1,1 +1,2 @@
-# Lucy-s-Bot-Base
+# Lucys-Bot-Base
+# A base for discord.js bots
