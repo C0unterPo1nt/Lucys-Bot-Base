@@ -1,6 +1,7 @@
-const token = require('./secrets.json').token;
-const { Client, Intents } = require('discord.js');
-const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
+const token = require('./config.json').token;
+const { Client, IntentsBitField } = require('discord.js');
+const intents = new IntentsBitField(1)
+const client = new Client({ intents: [intents] });
 const dispatch = require('./src/command-dispatch.js')
 
 client.on('ready', () => {
