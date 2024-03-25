@@ -22,6 +22,9 @@ lib-cov
 coverage
 *.lcov
 
+# secrets
+config.json
+
 # nyc test coverage
 .nyc_output
 
