@@ -1,6 +1,6 @@
-const { token, intentsBit } = require('./config.json');
+const { token, intents_bit } = require('./config.json');
 const { Client, IntentsBitField } = require('discord.js');
-const intents = new IntentsBitField(intentsBit);
+const intents = new IntentsBitField(intents_bit);
 const client = new Client({ intents: [intents] });
 const dispatch = require('./src/command-dispatch.js')
 
