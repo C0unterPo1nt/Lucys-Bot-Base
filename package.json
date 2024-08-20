@@ -4,7 +4,7 @@
     "discord-api-types": "^0.32.1",
     "discord.js": "^14.12.1"
   },
-  "scripts": {
+   "scripts": {
     "main": "node index.js",
     "command-update": "node command-update.js"
   }
